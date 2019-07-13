@@ -2,6 +2,8 @@
 // Vertical spacing variables and classes to use
 // **
 
+
+$sp-xsm: 1rem;
 $sp-sm: 2rem;
 $sp-md: 4rem;
 $sp-big: 5rem;
@@ -10,50 +12,123 @@ $sp-big: 5rem;
 // Padding
 
 .sp-top-zero {
-  padding-top: 0px !important;
+  padding-top: 0 !important;
+}
+
+.sp-top-xsm {
+  padding-top: $sp-xsm !important;
+
+  @media (max-width: $tablet) {
+    padding-top: $sp-xsm / 2 !important;
+  }
 }
 
 .sp-top-sm {
   padding-top: $sp-sm !important;
+
+  @media (max-width: $tablet) {
+    padding-top: $sp-sm / 2 !important;
+  }
 }
 
 .sp-top-md {
   padding-top: $sp-md !important;
+
+  @media (max-width: $tablet) {
+    padding-top: $sp-md / 2 !important;
+  }
 }
 
 .sp-top-big {
   padding-top: $sp-big !important;
-}
 
+  @media (max-width: $tablet) {
+    padding-top: $sp-big / 2.5 !important;
+  }
+}
 
 // bottom
+
 .sp-bottom-zero {
-  padding-bottom: 0px !important;
+  padding-bottom: 0 !important;
 }
+
+.sp-bottom-xsm {
+  padding-bottom: $sp-xsm !important;
+}
+
 .sp-bottom-sm {
   padding-bottom: $sp-sm !important;
+
+  @media (max-width: $tablet) {
+    padding-bottom: $sp-sm / 2.5 !important;
+  }
 }
 
 .sp-bottom-md {
   padding-bottom: $sp-md !important;
+
+  @media (max-width: $tablet) {
+    padding-bottom: $sp-md / 2 !important;
+  }
 }
 
 .sp-bottom-big {
   padding-bottom: $sp-big !important;
+
+  @media (max-width: $tablet) {
+    padding-bottom: $sp-md / 2 !important;
+  }
 }
+
+// around
+
+.sp-around-zero {
+  padding: 0 !important;
+}
+
+.sp-around-xsm {
+  padding: $sp-xsm !important;
+}
+
+.sp-around-sm {
+  padding: $sp-sm !important;
+
+  @media (max-width: $tablet) {
+    padding: $sp-sm / 2.5 !important;
+  }
+}
+
+.sp-around-md {
+  padding: $sp-md !important;
+
+  @media (max-width: $tablet) {
+    padding: $sp-md / 2 !important;
+  }
+}
+
+.sp-around-big {
+  padding: $sp-big !important;
+
+  @media (max-width: $tablet) {
+    padding: $sp-md / 2 !important;
+  }
+}
+
 
 
 // Margin
 
 .mg-bottom-zero {
-  margin-bottom: 0px !important;
+  margin-bottom: 0 !important;
 }
 
 .mg-bottom-sm {
   margin-bottom: $sp-sm !important;
 }
 
-.mg-bottom , .mg-bottom-md {
+.mg-bottom,
+.mg-bottom-md {
   margin-bottom: $sp-md !important;
 }
 
@@ -61,9 +136,8 @@ $sp-big: 5rem;
   margin-bottom: $sp-big !important;
 }
 
-
 .mg-top-zero {
-  margin-top: 0px !important;
+  margin-top: 0 !important;
 }
 
 .mg-top-sm {
@@ -73,6 +147,7 @@ $sp-big: 5rem;
 .mg-top-md {
   margin-top: $sp-md !important;
 }
+
 .mg-top-big {
   margin-top: $sp-big !important;
 }

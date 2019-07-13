@@ -5,3 +5,18 @@
 $container: 1200px;
 $container-sm: 800px;
 $container-l: 1440px;
+
+.container {
+  max-width: $container;
+  margin: auto;
+}
+
+.alignwide {
+  max-width: $container-l;
+  margin: auto;
+}
+
+.aligncenter {
+  max-width: $container-sm;
+  margin: auto;
+}
