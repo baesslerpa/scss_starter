@@ -1,0 +1,78 @@
+// **
+// Vertical spacing variables and classes to use
+// **
+
+$sp-sm: 2rem;
+$sp-md: 4rem;
+$sp-big: 5rem;
+
+
+// Padding
+
+.sp-top-zero {
+  padding-top: 0px !important;
+}
+
+.sp-top-sm {
+  padding-top: $sp-sm !important;
+}
+
+.sp-top-md {
+  padding-top: $sp-md !important;
+}
+
+.sp-top-big {
+  padding-top: $sp-big !important;
+}
+
+
+// bottom
+.sp-bottom-zero {
+  padding-bottom: 0px !important;
+}
+.sp-bottom-sm {
+  padding-bottom: $sp-sm !important;
+}
+
+.sp-bottom-md {
+  padding-bottom: $sp-md !important;
+}
+
+.sp-bottom-big {
+  padding-bottom: $sp-big !important;
+}
+
+
+// Margin
+
+.mg-bottom-zero {
+  margin-bottom: 0px !important;
+}
+
+.mg-bottom-sm {
+  margin-bottom: $sp-sm !important;
+}
+
+.mg-bottom , .mg-bottom-md {
+  margin-bottom: $sp-md !important;
+}
+
+.mg-bottom-big {
+  margin-bottom: $sp-big !important;
+}
+
+
+.mg-top-zero {
+  margin-top: 0px !important;
+}
+
+.mg-top-sm {
+  margin-top: $sp-sm !important;
+}
+
+.mg-top-md {
+  margin-top: $sp-md !important;
+}
+.mg-top-big {
+  margin-top: $sp-big !important;
+}
