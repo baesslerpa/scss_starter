@@ -1,6 +1,6 @@
 
 p {
-  font-size: $copy;
+  font-size: $f-copy;
   color: $ink;
   margin: 0;
   margin-bottom: $sp-xsm;
@@ -9,4 +9,8 @@ p {
 
 strong {
   font-weight: $bold;
+}
+
+small {
+  font-size: $f-copy-sm;
 }
