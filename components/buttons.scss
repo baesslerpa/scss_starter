@@ -1,0 +1,24 @@
+.btn {
+  display: inline-block;
+  padding: $sp-sm;
+  
+  &-primary {
+    &.filled {
+      background: $clr-first;
+    }
+
+    &.outline {
+      border-color: $clr-first;
+    }
+  }
+
+  &-secondary {
+    &.filled {
+      background: $clr-second;
+    }
+
+    &.outline {
+      border-color: $clr-second;
+    }
+  }
+}
